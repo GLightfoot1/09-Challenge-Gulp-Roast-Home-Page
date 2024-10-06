@@ -1,0 +1,60 @@
+/* By enforcing a "base font" like the following, we can save time by only having to specify fonts in smaller elements. */
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+/* I've made extensive use of padding to arrange elements to be more distinct, readable, and aesthetically pleasing. This is clunky and inefficient, however. I anticipate we will utilize grids and flex to our advantage in the next class module to make our CSS more efficient and readable.
+
+Also note that I've not used every color in the style guide. I did this to make the website simpler and "cleaner." Since I am both a developer and designer in this project, I felt I had the authority to make this decision. */
+
+nav {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 700;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 800px;
+}
+
+img {
+    padding-left: 80px;
+}
+
+#logo {
+    background-color: #D98555;
+    border-bottom: 3px solid #131D26;
+}
+
+#navigation {
+    color: #ffffff;
+    background-color: #59331D;
+    padding: 10px;
+}
+
+#contactButton {
+    padding: 25px;
+}
+
+#coffeePourPhoto {
+    background-color: #D98555;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+footer {
+    padding-bottom: 15px;
+    padding-left: 8px;
+    border-top: 3px solid #131D26;
+    background-color: #59331D;
+    color: #ffffff;
+}
